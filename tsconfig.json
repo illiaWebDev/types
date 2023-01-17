@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "importHelpers": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "files": [
+    "./src/core.ts"
+  ]
+}

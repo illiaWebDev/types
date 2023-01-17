@@ -1,0 +1,24 @@
+{
+  "name": "@illia-web-dev/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpileToDist": "tsc",
+    "ts": "tsc --noEmit --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illiaWebDev/types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illiaWebDev/types/issues"
+  },
+  "homepage": "https://github.com/illiaWebDev/types#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
