@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "transpileToDist": "tsc",
+    "transpileToDist": "rm -rf ./dist && tsc",
     "ts": "tsc --noEmit --watch"
   },
   "repository": {

@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES6",
+    "lib": ["ES2015"],
     "module": "commonjs",
     "strict": true,
     "declaration": true,
@@ -9,6 +10,12 @@
     "rootDir": "./src"
   },
   "files": [
-    "./src/core.ts"
+    "./src/core.ts",
+    "./src/types/I18n/Labels.ts",
+    "./src/types/I18n/LabelsLite.ts",
+    "./src/types/ISO8601/index.ts",
+    "./src/types/GenRtrn.ts",
+    "./src/types/Natural.ts",
+    "./src/types/RecordValues.ts",
   ]
 }
