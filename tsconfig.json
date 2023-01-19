@@ -16,6 +16,6 @@
     "./src/types/ISO8601/index.ts",
     "./src/types/GenRtrn.ts",
     "./src/types/Natural.ts",
-    "./src/types/RecordValues.ts",
+    "./src/types/RecordValues.ts"
   ]
 }
