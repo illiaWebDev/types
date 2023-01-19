@@ -16,6 +16,12 @@ const config = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  rules: {
+    'max-len': ["error", { "ignoreComments": true, code: 120 }],
+    'no-multiple-empty-lines': ["error", { max: 2, maxEOF: 0, maxBOF: 0 }],
+    '@typescript-eslint/type-annotation-spacing': ["error", { after: true }],
+    'space-in-parens': ['error', 'always'],
+  }
 };
 
 // eslint-disable-next-line no-undef

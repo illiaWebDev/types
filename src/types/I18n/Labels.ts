@@ -1,9 +1,8 @@
 import type { LangAbbr } from './LangAbbr';
 
-
 export type I18nLabels = {
   [ lang in LangAbbr ]?: string;
-}
+};
 
 /**
  * utility to generalize extracting correct label\
@@ -14,5 +13,4 @@ export type I18nLabels = {
 export const extractLabelByLang = (
   labels: I18nLabels,
   lang: keyof typeof labels,
-): string => ( labels[ lang ] || '' );
-
+): string => ( labels[lang] || '' );

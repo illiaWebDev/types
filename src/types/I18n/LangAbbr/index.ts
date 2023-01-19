@@ -13,4 +13,3 @@ export type LangAbbr = (
   | 'tk' | 'tl' | 'tn' | 'to' | 'tr' | 'ts' | 'tt' | 'tw' | 'ug' | 'uk' | 'ur'
   | 'uz' | 'vi' | 'vo' | 'wo' | 'xh' | 'yi' | 'yo' | 'za' | 'zh' | 'zu'
 );
-
