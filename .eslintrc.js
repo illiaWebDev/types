@@ -21,6 +21,7 @@ const config = {
     'no-multiple-empty-lines': ["error", { max: 2, maxEOF: 0, maxBOF: 0 }],
     '@typescript-eslint/type-annotation-spacing': ["error", { after: true }],
     'space-in-parens': ['error', 'always'],
+    'import/prefer-default-export': 'off'
   }
 };
 
