@@ -10,18 +10,6 @@
     "rootDir": "./src",
   },
   "files": [
-    "./src/core.ts",
-    "./src/types/I18n/Labels.ts",
-    "./src/types/I18n/LabelsLite.ts",
-    "./src/types/ISO8601/index.ts",
-    "./src/types/GenRtrn.ts",
-    "./src/types/Identity.ts",
-    "./src/types/MapContents.ts",
-    "./src/types/Natural.ts",
-    "./src/types/ObjKeys.ts",
-    "./src/types/Omit.ts",
-    "./src/types/Pick.ts",
-    "./src/types/RecordValues.ts",
-    "./src/types/Time/index.ts",
+    "./src/index.ts",
   ]
 }
