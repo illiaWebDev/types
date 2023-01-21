@@ -10,7 +10,8 @@
     "lint:fix": "eslint . --ext .ts --fix",
     "prepare": "husky install",
     "publish-package:test:pack": "npm pack",
-    "publish-package:test:unpack-archive": "tar zxvf"
+    "publish-package:test:unpack-archive": "tar zxvf",
+    "publish-package:publish": "npm run transpileToDist && npm publish --access public"
   },
   "repository": {
     "type": "git",
