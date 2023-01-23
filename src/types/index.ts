@@ -10,3 +10,4 @@ export * from './ObjKeys';
 export * from './Omit';
 export * from './Pick';
 export * from './RecordValues';
+export * from './ScStyle';
