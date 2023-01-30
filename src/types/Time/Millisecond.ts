@@ -1,4 +1,4 @@
-import type { NominalHardNum } from '../../core';
+import type { NominalHardNumT } from '../../core';
 
 
 /**
@@ -6,4 +6,4 @@ import type { NominalHardNum } from '../../core';
  * at any point what time measurment they deal with
  * @example 1000
  */
-export type Millisecond = NominalHardNum< { '__types__/Millisecond(-s)': 1 } >;
+export type Millisecond = NominalHardNumT< '__types__/Millisecond(-s)' >;

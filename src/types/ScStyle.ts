@@ -1,7 +1,7 @@
-import type { NominalHardStr } from '../core';
+import type { NominalHardStrT } from '../core';
 
 
-export type ScStyleStr = NominalHardStr< { ScStyleStr: 1 } >;
+export type ScStyleStr = NominalHardStrT< 'ScStyleStr' >;
 export const Tstyled = {
   _: ( str: TemplateStringsArray, ...rest: unknown[] ): ScStyleStr => (
     str.reduce( ( acc, it, i ) => acc + it + String( rest[i] || '' ), '' ) as ScStyleStr
