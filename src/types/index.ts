@@ -2,6 +2,7 @@ export * as I18n from './I18n';
 export * as ISO8601 from './ISO8601';
 export * from './Time';
 export * from './ACreators';
+export * from './assertUnreachable';
 export * from './BcryptPassword';
 export * from './Extract';
 export * from './GenRtrn';
