@@ -13,4 +13,4 @@ export type I18nLabels = {
 export const extractLabelByLang = (
   labels: I18nLabels,
   lang: keyof typeof labels,
-): string => ( labels[lang] || '' );
+): string => ( labels[ lang ] || '' );

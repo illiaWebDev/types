@@ -1,11 +1,11 @@
 {
   "name": "@illia-web-dev/types",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "scripts": {
-    "precommit": "tsc --noEmit",
+    "precommit": "npm run lint -- --max-warnings=0 && tsc --noEmit",
     "transpileToDist": "rm -rf ./dist && tsc",
     "ts": "tsc --noEmit --watch",
     "lint": "eslint . --ext .ts",

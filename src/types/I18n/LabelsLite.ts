@@ -3,5 +3,5 @@ export type I18nLabelsLite = {
 };
 
 export const extractLabelByLangLite = ( labels: I18nLabelsLite, lang: string ): string => (
-  labels[lang] || ''
+  labels[ lang ] || ''
 );
