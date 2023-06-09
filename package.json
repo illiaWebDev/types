@@ -1,6 +1,6 @@
 {
   "name": "@illia-web-dev/types",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
@@ -14,7 +14,7 @@
     "publish-package:test:pack": "npm run transpileToDist && npm pack",
     "publish-package:test:unpack-archive": "tar zxvf",
     "publish-package:test:clean": "rm -rf ./package && rm -rf illia-web-dev-types*",
-    "publish-package:publish": "npm run transpileToDist && npm publish --access public"
+    "publish-package:publish": "npm run precommit && npm run transpileToDist && npm publish --access public"
   },
   "repository": {
     "type": "git",

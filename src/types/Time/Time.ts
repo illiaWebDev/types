@@ -9,6 +9,11 @@ export type EpochMillisecond = ExtNominalHardNumT< Millisecond, '__types__/Epoch
 
 
 export type Second = NominalHardNumT< '__types__/Second(-s)' >;
+/**
+ * corresponds to amount of seconds since Unix Epoch\
+ * typically used in JWT tokens
+ */
+export type EpochSecond = NominalHardNumT< '__types__/Second(-s)' | '__types__/EpochSecond' >;
 
 
 /**
