@@ -8,6 +8,7 @@ export * from './CommonRes';
 export * from './Extract';
 export * from './Gen';
 export * from './Identity';
+export * from './jwt';
 export * from './MapContents';
 export * from './Natural';
 export * from './ObjKeys';
