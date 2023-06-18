@@ -6,6 +6,7 @@ import type { Millisecond } from './Millisecond';
  * corresponds to amount of milliseconds since Unix Epoch
  */
 export type EpochMillisecond = ExtNominalHardNumT< Millisecond, '__types__/EpochMillisecond' >;
+export const getEpochMilliseconds = () => Date.now() as EpochMillisecond;
 
 
 export type Second = NominalHardNumT< '__types__/Second(-s)' >;
@@ -14,7 +15,7 @@ export type Second = NominalHardNumT< '__types__/Second(-s)' >;
  * typically used in JWT tokens
  */
 export type EpochSecond = NominalHardNumT< '__types__/Second(-s)' | '__types__/EpochSecond' >;
-
+export const getEpochSecond = () => Math.floor( getEpochMilliseconds() / 1_000 ) as EpochSecond;
 
 /**
  * @example 'MM/dd/yyyy'
