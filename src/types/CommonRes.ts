@@ -7,6 +7,8 @@
 export type TSuccessRes< Data = never > = [Data] extends [never]
   ? { success: true }
   : { success: true; data: Data };
+export const tSuccessRes: TSuccessRes = { success: true };
+
 export type TFailureRes< Err > = {
   success: false;
   error: Err;
