@@ -8,6 +8,12 @@ import type { NominalHardStrT, ExtNominalHardStrT } from '../../core';
  */
 export type Full = NominalHardStrT< '__types__/ISO8601/UTC/Full' >;
 export const getFull = (): Full => new Date().toISOString() as Full;
+/**
+ * to be used in all those places where \
+ * we really just want "some" ISO date \
+ * string, like testing, default values, etc
+ */
+export const fullInstance = getFull();
 
 /**
  * UTC ISO String but with milliseconds part equal to 0
